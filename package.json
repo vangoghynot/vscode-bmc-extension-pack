@@ -1,0 +1,53 @@
+{
+	"name": "bmc-extension-pack",
+	"displayName": "BMC Firmware Extension Pack",
+	"description": "Useful Visual Studio Code extensions for BMC firmware engineer",
+	"version": "0.1.1",
+	"publisher": "TonyCSLo",
+	"author": {
+		"name": "Tony C.S. Lo",
+		"email": "bleuvasa@gmail.com"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vangoghynot/vscode-bmc-extension-pack"
+	},
+	"bugs": {
+		"url": "ttps://github.com/vangoghynot/vscode-bmc-extension-pack/issues"
+	},
+	"icon": "resources/icon.png",
+	"galleryBanner": {
+		"color": "#3e435e",
+		"theme": "dark"
+	},
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+	"keywords": [
+		"uefi",
+		"edk2",
+		"uefifirmware",
+		"efifirmware",
+    	"firmware",
+    	"efi",
+    	"bios",
+    	"bmc",
+    	"openbmc",
+    	"redfish",
+    	"ipmi",
+    	"restful"
+	],
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "ivanhofer.git-assistant",
+        "gitlab.gitlab-workflow",
+        "eamodio.gitlens",
+        "alefragnani.project-manager",
+      	"mccarter.start-git-bash",
+        "yzhang.markdown-all-in-one",
+        "ms-vscode.cpptools"
+    ]
+}
